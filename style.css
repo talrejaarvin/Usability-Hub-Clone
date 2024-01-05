@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: grey; */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    align-items: center;
+    background: url("./assets/asset\ 30.png");
+    background-color: rgb(79, 179, 212);
+    background-size: 300px;
+}
+
+.banner {
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p {
+    font-weight: 700;
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 0px;
+}
+
+.company-logo img {
+    width: 200px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+#signin-button {
+    text-align: center;
+    font-weight: 700;
+    border-radius: 6px;
+    border: 0.5px #333 solid;
+    padding: 12px 24px;
+
+}
+
+#signup-button {
+    text-align: center;
+    font-weight: 700;
+    border-radius: 6px;
+    border: 0.5px #333 solid;
+    padding: 12px 24px;
+    background-color: #2294ed;
+    color: white;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header-container img {
+    width: 545px;
+    height: 400px;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-text h1 {
+    display: flex;
+    color: #183B56;
+    font-size: 3rem;
+    margin: 20px 0px 0px;
+}
+
+.header-text p {
+    color: #577592;
+    font-size: 1.25rem;
+}
+
+.header-text a {
+    text-align: center;
+    font-weight: 700;
+    border-radius: 6px;
+    border: 0.5px #333 solid;
+    padding: 12px 24px;
+    background-color: #2294ed;
+    color: white;
+    margin: 20px 0px 0px;
+
+}
+
+header{
+    padding: 50px 20px 0px;
+}
+
