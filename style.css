@@ -283,24 +283,30 @@ header {
     height: 300px;
     padding: 20px;
     cursor: pointer;
-    background-size: cover !important;
+    
+    
 }
 
 #card1 {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url("./assets/asset\ 35.jpeg");
+    background-size: cover;
+    
 
 }
 
 #card2 {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)) 0% 0% / cover, url("./assets/asset\ 34.jpeg");
+    background-size: cover;
 }
 
 #card3 {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)) 0% 0% / cover, url("./assets/asset\ 36.jpeg");
+    background-size: cover;
 }
 
 #card4 {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)) 0% 0% / cover, url("./assets/asset\ 37.jpeg");
+    background-size: cover;
 
 }
 
